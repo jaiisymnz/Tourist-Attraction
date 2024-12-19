@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Bai Jamjuree", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

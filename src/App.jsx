@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import PostCard from "./components/PostCard";
 
 function App() {
-
-
   return (
     <>
- <div className="text-red-700 bg-blue-400">Hello</div>
+      <PostCard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
